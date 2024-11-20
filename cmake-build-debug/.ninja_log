@@ -1,0 +1,12 @@
+# ninja log v6
+5	646	7538230208051239	CMakeFiles/sdlTemplateC_.dir/main.cpp.obj	4b1779efcd51a569
+10	747	7538262148422070	CMakeFiles/sdlTemplateC_.dir/src/Sprite.cpp.obj	4f6b57ba2422b8c3
+760	843	7538317021278284	sdlTemplateC_.exe	6c547aa99a42979
+10	81	7537502678000923	CMakeFiles/sdlTemplateC_.dir/Window.cpp.obj	9a76aff01623e615
+4	761	7538229247138914	CMakeFiles/sdlTemplateC_.dir/System.cpp.obj	7bc2d6963e2ae01c
+2	792	7538251873359461	CMakeFiles/sdlTemplateC_.dir/src/main.cpp.obj	8a9c48eb0d0d4ace
+8	809	7538229247168925	CMakeFiles/sdlTemplateC_.dir/Session.cpp.obj	1cad7974f54e7f32
+7	849	7538251873401870	CMakeFiles/sdlTemplateC_.dir/src/System.cpp.obj	c22bbb1f6bd8048a
+5	759	7538317013730895	CMakeFiles/sdlTemplateC_.dir/src/Session.cpp.obj	338c64b9c56e30b5
+5	841	7538319385979770	CMakeFiles/sdlTemplateC_.dir/src/Session.cpp.obj	338c64b9c56e30b5
+841	957	7538319394329204	sdlTemplateC_.exe	6c547aa99a42979

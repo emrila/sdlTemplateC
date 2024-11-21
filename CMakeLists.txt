@@ -19,6 +19,6 @@ add_executable(sdlTemplateC_ src/main.cpp
         src/Sprite.h
         include/Constants.h
 )
-include_directories(${SDL2_INCLUDE_DIR})
+include_directories(${SDL2_INCLUDE_DIR} ${SDL2_IMAGE_INCLUDE_DIRS})
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARY} ${SDL2_IMAGE_LIBRARIES})
 

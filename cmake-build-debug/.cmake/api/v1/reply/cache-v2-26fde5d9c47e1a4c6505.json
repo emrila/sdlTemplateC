@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "29"
+			"value" : "30"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "6"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1363,7 +1363,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2.dll.a"
+			"value" : "mingw32;-mwindows;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a;C:/Users/emmar/CLionProjects/CPROG/sdlTemplateC/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2.dll.a"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

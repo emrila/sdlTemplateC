@@ -11,6 +11,8 @@
 
 class Sprite {
     SDL_Rect rectangle;
+    SDL_Rect src_rect_;
+    SDL_Rect dst_rect_;
     SDL_Surface* surface= nullptr;
     SDL_Texture* texture= nullptr;;
 

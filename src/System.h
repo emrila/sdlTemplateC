@@ -15,7 +15,7 @@ struct System {
 
     SDL_Window* window;
     SDL_Renderer* renderer;
-    SDL_Surface* screenSurface;
+ //   SDL_Surface* screenSurface;
 
     static Uint32  getRandomInt() {
         std::random_device rd;  // Seed for the random number engine

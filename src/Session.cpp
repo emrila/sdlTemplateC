@@ -3,9 +3,10 @@
 //
 
 #include "Session.h"
+
+#include <iostream>
 #include <SDL.h>
 
-#include "Action.h"
 #include "Sprite.h"
 #include "System.h"
 #include "../include/Constants.h"
@@ -13,13 +14,22 @@
 void Session::run() {
     bool quit = false;
     const Uint32 tickInterval = 1000 / FPS;
-    const Sprite sprite(0, 0, 640, 480, constants::gResPath+"images/hello_world.bmp");
+
+    SDL_Surface* surface = SDL_LoadBMP((constants::gResPath + "images/hello_world.bmp").c_str());
+    if (!surface) {
+        std::cout << "Failed to load BMP: " << SDL_GetError() << std::endl;
+        return;
+    }    SDL_Texture* imageTexture = SDL_CreateTextureFromSurface(sys.renderer, surface);
+    SDL_FreeSurface( surface);
+    const SDL_Rect src = {0, 0, 800, 800};
+    const SDL_Rect dst = {0, 0, 100, 100};
+    SDL_RenderCopy(sys.renderer, imageTexture, &src, &dst);
+    SDL_RenderPresent(sys.renderer);
 
     while (!quit) {
         const Uint32 nextTick = SDL_GetTicks() + tickInterval;
         handleInput(quit);
         updateRender();
-      //  sprite.render();
 
         if (const int delay = nextTick - SDL_GetTicks(); delay > 0) {
             SDL_Delay(delay);
@@ -42,7 +52,7 @@ void Session::handleInput(bool &quit) {
             return;
         }
         if(event.type == SDL_MOUSEBUTTONUP) {
-            Action::fillScreenWithRandomColor();
+        //    Action::fillScreenWithRandomColor();
         }
     }
 }

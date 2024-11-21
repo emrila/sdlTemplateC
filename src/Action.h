@@ -10,10 +10,7 @@
 
 namespace Action{
     inline void fillScreenWithRandomColor() {
-        SDL_FillRect(
-            sys.screenSurface,
-            nullptr,
-            SDL_MapRGB( sys.screenSurface->format,  System::getRandomInt(),  System::getRandomInt(), System::getRandomInt()));
+     //   SDL_FillRect(            sys.screenSurface,            nullptr,            SDL_MapRGB( sys.screenSurface->format,  System::getRandomInt(),  System::getRandomInt(), System::getRandomInt()));
 
     }
 

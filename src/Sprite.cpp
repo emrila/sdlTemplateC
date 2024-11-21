@@ -5,16 +5,16 @@
 #include "Sprite.h"
 #include "System.h"
 
-Sprite::Sprite(): rectangle(), texture(nullptr) {
+Sprite::Sprite(): rectangle() {
 }
 
-Sprite::Sprite(const int x, const int y, const int w, const int h, const std::string &path = ""){
-    if(!std::empty(path)) {
-        surface = SDL_LoadBMP(path.c_str());
-        texture = SDL_CreateTextureFromSurface(sys.renderer, surface);
-        rectangle = {x,y, w, h};
-        SDL_FreeSurface(surface);
+Sprite::Sprite(const int x, const int y, const int w, const int h, const std::string &path = ""): rectangle{x,y, w, h}{
+    if(std::empty(path)) {
+       return;
     }
+    surface = SDL_LoadBMP(path.c_str());
+    texture = SDL_CreateTextureFromSurface(sys.renderer, surface);
+    SDL_FreeSurface(surface);
 }
 
 Sprite::~Sprite() {
@@ -22,6 +22,8 @@ Sprite::~Sprite() {
 }
 
 void Sprite::render() const {
-    SDL_RenderCopy(sys.renderer, texture, nullptr, &rectangle);
+    SDL_RenderClear(sys.renderer);
+    SDL_RenderCopy(sys.renderer, texture, &rectangle, nullptr);
+    SDL_RenderPresent(sys.renderer);
 }
 

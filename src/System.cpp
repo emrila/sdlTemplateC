@@ -6,17 +6,16 @@
 
 System sys;
 
-int SCREEN_HEIGHT = 700;
-int SCREEN_WIDTH = 500;
+
 
 System::System() {
     if(SDL_Init(SDL_INIT_EVERYTHING) < 0) {
        return;
     }
 
-    window = SDL_CreateWindow("SDL", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, 0);
+    window = SDL_CreateWindow("SDL", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 1000, 1000, 0);
     renderer = SDL_CreateRenderer(window, -1, 0);
-    screenSurface = SDL_GetWindowSurface(window);
+ //   screenSurface = SDL_GetWindowSurface(window);
 }
 
 System::~System() {

@@ -15,7 +15,6 @@ System::System() {
 
     window = SDL_CreateWindow("SDL", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 1000, 1000, 0);
     renderer = SDL_CreateRenderer(window, -1, 0);
- //   screenSurface = SDL_GetWindowSurface(window);
 }
 
 System::~System() {

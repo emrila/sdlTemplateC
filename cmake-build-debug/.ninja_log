@@ -1,14 +1,13 @@
 # ninja log v6
-18	888	7538474962934281	CMakeFiles/sdlTemplateC_.dir/src/Sprite.cpp.obj	71d51e1565b45aae
+12	803	7540067342442761	CMakeFiles/sdlTemplateC_.dir/src/Sprite.cpp.obj	4f6b57ba2422b8c3
+809	1038	7540067350416525	sdlTemplateC_.exe	6c547aa99a42979
 2	216	7538482279965277	build.ninja	91a602906ab3b8fb
-1012	1091	7538474972863513	sdlTemplateC_.exe	6c547aa99a42979
-6	811	7538474962802960	CMakeFiles/sdlTemplateC_.dir/src/main.cpp.obj	909356090884aab9
-9	922	7538474962842962	CMakeFiles/sdlTemplateC_.dir/src/System.cpp.obj	2adbad24be63adb1
-14	1012	7538474962892970	CMakeFiles/sdlTemplateC_.dir/src/Session.cpp.obj	23459d5d8f7ef936
-13	1023	7538886025060122	CMakeFiles/sdlTemplateC_.dir/src/main.cpp.obj	8a9c48eb0d0d4ace
-34	1117	7538886025265232	CMakeFiles/sdlTemplateC_.dir/src/Sprite.cpp.obj	4f6b57ba2422b8c3
-21	1130	7538886025140142	CMakeFiles/sdlTemplateC_.dir/src/System.cpp.obj	c22bbb1f6bd8048a
-27	1244	7538886025195164	CMakeFiles/sdlTemplateC_.dir/src/Session.cpp.obj	338c64b9c56e30b5
-1244	1646	7538886037366033	sdlTemplateC_.exe	6c547aa99a42979
-5	804	7538886649401301	CMakeFiles/sdlTemplateC_.dir/src/Session.cpp.obj	338c64b9c56e30b5
-804	904	7538886657387779	sdlTemplateC_.exe	6c547aa99a42979
+7	729	7540046034505910	CMakeFiles/sdlTemplateC_.dir/src/main.cpp.obj	8a9c48eb0d0d4ace
+9	939	7539995768706867	CMakeFiles/sdlTemplateC_.dir/src/System.cpp.obj	c22bbb1f6bd8048a
+8	809	7540067342399929	CMakeFiles/sdlTemplateC_.dir/src/Session.cpp.obj	338c64b9c56e30b5
+6	738	7540067600009536	CMakeFiles/sdlTemplateC_.dir/src/Sprite.cpp.obj	4f6b57ba2422b8c3
+739	829	7540067607342892	sdlTemplateC_.exe	6c547aa99a42979
+16	951	7540069582544020	CMakeFiles/sdlTemplateC_.dir/src/Sprite.cpp.obj	4f6b57ba2422b8c3
+7	967	7540069582455106	CMakeFiles/sdlTemplateC_.dir/src/System.cpp.obj	c22bbb1f6bd8048a
+12	982	7540069582505098	CMakeFiles/sdlTemplateC_.dir/src/Session.cpp.obj	338c64b9c56e30b5
+982	1075	7540069592207242	sdlTemplateC_.exe	6c547aa99a42979

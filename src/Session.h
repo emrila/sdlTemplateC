@@ -6,7 +6,6 @@
 #define SESSION_H
 
 
-
 class Session {
 public:
     void run();
@@ -14,6 +13,8 @@ public:
     void updateRender();
 
 private:
+    class Sprite* sprite = nullptr;
+
     const int FPS = 60;
 };
 

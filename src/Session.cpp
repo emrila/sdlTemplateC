@@ -3,10 +3,7 @@
 //
 
 #include "Session.h"
-
-#include <iostream>
 #include <SDL.h>
-
 #include "Sprite.h"
 #include "System.h"
 #include "../include/Constants.h"
@@ -15,17 +12,8 @@ void Session::run() {
     bool quit = false;
     const Uint32 tickInterval = 1000 / FPS;
 
-    SDL_Surface* surface = SDL_LoadBMP((constants::gResPath + "images/hello_world.bmp").c_str());
-    if (!surface) {
-        std::cout << "Failed to load BMP: " << SDL_GetError() << std::endl;
-        return;
-    }    SDL_Texture* imageTexture = SDL_CreateTextureFromSurface(sys.renderer, surface);
-    SDL_FreeSurface( surface);
-    const SDL_Rect src = {0, 0, 800, 800};
-    const SDL_Rect dst = {0, 0, 100, 100};
-    SDL_RenderCopy(sys.renderer, imageTexture, &src, &dst);
-    SDL_RenderPresent(sys.renderer);
-
+    sprite = new Sprite(constants::gResPath + "images/hello_world.bmp");
+    sprite->render();
     while (!quit) {
         const Uint32 nextTick = SDL_GetTicks() + tickInterval;
         handleInput(quit);
@@ -51,13 +39,28 @@ void Session::handleInput(bool &quit) {
             quit = true;
             return;
         }
-        if(event.type == SDL_MOUSEBUTTONUP) {
+        if (event.type == SDL_MOUSEBUTTONDOWN) {
+            SDL_Point point = {event.button.x, event.button.y};
+            if (SDL_PointInRect(&point, &sprite->dst)) {
+                sprite->drag = true;
+            }
+        }
+        if (event.type == SDL_MOUSEMOTION) {
+            if (sprite->drag) {
+                sprite->move(event.motion.xrel, event.motion.yrel);
+            }
+        }
+        if (event.type == SDL_MOUSEBUTTONUP) {
+            sprite->drag = false;
         //    Action::fillScreenWithRandomColor();
         }
     }
 }
 
 void Session::updateRender() {
+    SDL_RenderClear(sys.renderer);
+    sprite->render();
     SDL_UpdateWindowSurface(sys.window );
+
    // SDL_RenderPresent(sys.renderer);
 }

@@ -15,15 +15,14 @@ struct System {
 
     SDL_Window* window;
     SDL_Renderer* renderer;
- //   SDL_Surface* screenSurface;
 
     static Uint32  getRandomInt() {
         std::random_device rd;  // Seed for the random number engine
         std::mt19937 gen(rd()); // Mersenne Twister engine
         std::uniform_int_distribution<> dis(0, 255); // Distribution range
-
         return static_cast<Uint32>(dis(gen)); // Generate random number
     }
+
 
     //  Mix_Chunk* musik;
 };

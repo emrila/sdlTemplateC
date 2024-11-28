@@ -61,6 +61,7 @@ void Session::updateRender() {
     SDL_RenderClear(sys.renderer);
     sprite->render();
     SDL_UpdateWindowSurface(sys.window );
+    SDL_RenderPresent(sys.renderer);
 
    // SDL_RenderPresent(sys.renderer);
 }

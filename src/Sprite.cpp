@@ -25,7 +25,7 @@ void Sprite::render() const{
     }
 
     SDL_RenderCopy(sys.renderer, texture, isRectangleEmpty(src) ? nullptr: &src, &dst);
-    SDL_RenderPresent(sys.renderer);
+
 }
 
 void Sprite::move(const int x, const int y) {

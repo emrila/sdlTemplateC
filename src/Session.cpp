@@ -6,7 +6,7 @@
 #include <SDL2/SDL.h>
 #include "Sprite.h"
 #include "System.h"
-#include "../include/Constants.h"
+#include "Constants.h"
 
 void Session::run() {
     bool quit = false;
@@ -19,7 +19,7 @@ void Session::run() {
         handleInput(quit);
         updateRender();
 
-        if (const int delay = nextTick - SDL_GetTicks(); delay > 0) {
+        if (const Uint32 delay = nextTick - SDL_GetTicks(); delay > 0) {
             SDL_Delay(delay);
         }
     }
@@ -31,7 +31,7 @@ void Session::run() {
     SDL_Quit();
 }
 
-void Session::handleInput(bool &quit) {
+void Session::handleInput(bool &quit) const {
     SDL_Event event;
     while (SDL_PollEvent(&event)) {
         if (event.type == SDL_QUIT) {
@@ -56,7 +56,7 @@ void Session::handleInput(bool &quit) {
     }
 }
 
-void Session::updateRender() {
+void Session::updateRender() const {
     SDL_RenderClear(sys.renderer);
     sprite->render();
     SDL_RenderPresent(sys.renderer);

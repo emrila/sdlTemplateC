@@ -4,14 +4,12 @@
 
 #ifndef SESSION_H
 #define SESSION_H
-#include <SDL2/SDL_stdinc.h>
-
 
 class Session {
 public:
     void run();
-    void handleInput(bool& quit);
-    void updateRender();
+    void handleInput(bool& quit) const;
+    void updateRender() const;
 
 private:
     class Sprite* sprite = nullptr;

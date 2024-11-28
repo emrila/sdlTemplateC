@@ -11,9 +11,10 @@ Sprite::Sprite(const std::string &path): src{0,0,0,0}, dst{0,0,0,0} {
     load_and_create(path);
 }
 
-Sprite::Sprite(const Transform &src, const Transform &dst, const std::string &path) : src{src.x, src.y, src.width, src.height}, dst{dst.x, dst.y, dst.width, dst.height} {
- load_and_create(path);
+Sprite::Sprite(const SDL_Rect &src, const SDL_Rect &dst, const std::string &path) : src{src.x, src.y, src.w, src.h}, dst{dst.x, dst.y, dst.w, dst.h} {
+    load_and_create(path);
 }
+
 
 Sprite::~Sprite() {
     SDL_DestroyTexture(texture);

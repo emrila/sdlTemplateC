@@ -5,35 +5,20 @@
 #ifndef SPRITE_H
 #define SPRITE_H
 
-#include <SDL2/SDL_image.h>
 #include <string>
-
-struct Transform {
-//Location
-    int x = 0;
-    int y = 0;
-
-//Scale
-    int width = -1;
-    int height = -1;
-
-    //Rotation
-    int degrees = 0;
-
-
-};
+#include <SDL2/SDL_rect.h>
 
 class Sprite {
-    SDL_Texture* texture= nullptr;;
+     class SDL_Texture* texture= nullptr;;
 public:
     SDL_Rect src;
     SDL_Rect dst;
 
     bool drag = false;
-public:
+
     Sprite();
     explicit Sprite(const std::string &path);
-    Sprite(const Transform &src, const Transform &dst, const std::string &path);
+    Sprite(const SDL_Rect &src, const SDL_Rect &dst, const std::string &path);
     ~Sprite();
 
     void render() const;

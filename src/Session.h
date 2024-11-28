@@ -4,6 +4,7 @@
 
 #ifndef SESSION_H
 #define SESSION_H
+#include <SDL2/SDL_stdinc.h>
 
 
 class Session {
@@ -14,8 +15,7 @@ public:
 
 private:
     class Sprite* sprite = nullptr;
-
-    const int FPS = 60;
+     const int FPS = 60;
 };
 
 

@@ -23,7 +23,6 @@ struct System {
         return static_cast<Uint32>(dis(gen)); // Generate random number
     }
 
-
     //  Mix_Chunk* musik;
 };
 

@@ -27,7 +27,6 @@ void Session::run() {
     SDL_DestroyWindow(sys.window);
     SDL_DestroyRenderer(sys.renderer);
 
-    SDL_Quit();
     //Quit SDL subsystems
     SDL_Quit();
 }
@@ -52,16 +51,14 @@ void Session::handleInput(bool &quit) {
         }
         if (event.type == SDL_MOUSEBUTTONUP) {
             sprite->drag = false;
-        //    Action::fillScreenWithRandomColor();
         }
+
     }
 }
 
 void Session::updateRender() {
     SDL_RenderClear(sys.renderer);
     sprite->render();
-    SDL_UpdateWindowSurface(sys.window );
     SDL_RenderPresent(sys.renderer);
-
-   // SDL_RenderPresent(sys.renderer);
+    SDL_UpdateWindowSurface(sys.window);
 }

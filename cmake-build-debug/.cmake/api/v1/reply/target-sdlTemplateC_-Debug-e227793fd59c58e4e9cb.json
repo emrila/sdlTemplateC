@@ -35,13 +35,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 25,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 20,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -80,7 +80,7 @@
 				0,
 				1,
 				3,
-				6
+				5
 			]
 		}
 	],
@@ -180,7 +180,7 @@
 				0,
 				1,
 				3,
-				6
+				5
 			]
 		},
 		{
@@ -189,9 +189,8 @@
 			[
 				2,
 				4,
-				5,
-				7,
-				8
+				6,
+				7
 			]
 		}
 	],
@@ -223,11 +222,6 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/Session.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "src/Action.h",
 			"sourceGroupIndex" : 1
 		},
 		{

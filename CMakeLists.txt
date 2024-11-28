@@ -12,7 +12,6 @@ add_executable(sdlTemplateC_ src/main.cpp
         src/System.h
         src/Session.cpp
         src/Session.h
-        src/Action.h
         src/Sprite.cpp
         src/Sprite.h
         include/Constants.h

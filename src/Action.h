@@ -4,7 +4,7 @@
 
 #ifndef ACTION_H
 #define ACTION_H
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "System.h"
 
 

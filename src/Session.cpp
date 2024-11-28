@@ -3,7 +3,7 @@
 //
 
 #include "Session.h"
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "Sprite.h"
 #include "System.h"
 #include "../include/Constants.h"

@@ -6,8 +6,6 @@
 
 System sys;
 
-
-
 System::System() {
     if(SDL_Init(SDL_INIT_EVERYTHING) < 0) {
        return;

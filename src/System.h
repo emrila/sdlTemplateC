@@ -5,7 +5,7 @@
 #ifndef SYSTEM_H
 #define SYSTEM_H
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <random>
 //#include <SDL_mixer.h>
 

@@ -11,3 +11,5 @@
 7	967	7540069582455106	CMakeFiles/sdlTemplateC_.dir/src/System.cpp.obj	c22bbb1f6bd8048a
 12	982	7540069582505098	CMakeFiles/sdlTemplateC_.dir/src/Session.cpp.obj	338c64b9c56e30b5
 982	1075	7540069592207242	sdlTemplateC_.exe	6c547aa99a42979
+36	911	7541038367716695	CMakeFiles/sdlTemplateC_.dir/src/Sprite.cpp.obj	4f6b57ba2422b8c3
+911	1270	7541038376473585	sdlTemplateC_.exe	6c547aa99a42979

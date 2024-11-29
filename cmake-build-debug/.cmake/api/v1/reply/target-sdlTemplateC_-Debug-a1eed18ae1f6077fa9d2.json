@@ -29,19 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 19,
+				"line" : 23,
 				"parent" : 0
 			}
 		]
@@ -110,31 +110,6 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "C:\\Users\\emmar\\CLionProjects\\CPROG\\sdlTemplateC\\SDL2-2.30.9\\x86_64-w64-mingw32\\lib\\libSDL2main.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Users\\emmar\\CLionProjects\\CPROG\\sdlTemplateC\\SDL2-2.30.9\\x86_64-w64-mingw32\\lib\\libSDL2.dll.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Users\\emmar\\CLionProjects\\CPROG\\sdlTemplateC\\SDL2-2.30.9\\x86_64-w64-mingw32\\lib\\libSDL2main.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Users\\emmar\\CLionProjects\\CPROG\\sdlTemplateC\\SDL2-2.30.9\\x86_64-w64-mingw32\\lib\\libSDL2_image.dll.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Users\\emmar\\CLionProjects\\CPROG\\sdlTemplateC\\SDL2-2.30.9\\x86_64-w64-mingw32\\lib\\libSDL2_ttf.dll.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "C:\\Users\\emmar\\CLionProjects\\CPROG\\sdlTemplateC\\SDL2-2.30.9\\x86_64-w64-mingw32\\lib\\libSDL2_mixer.dll.a",
 				"role" : "libraries"
 			},
 			{
